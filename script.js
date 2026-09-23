@@ -11,12 +11,12 @@ from "https://www.gstatic.com/firebasejs/12.2.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDPQu7aF8DlWWIPh2LZvPup9BjWub8A00Q",
-  authDomain: "home-automation-27c75.firebaseapp.com",
-  databaseURL: "https://home-automation-27c75-default-rtdb.firebaseio.com",
-  projectId: "home-automation-27c75",
-  storageBucket: "home-automation-27c75.firebasestorage.app",
-  messagingSenderId: "195721038212",
+  apiKey: "AIzaSyAchJb9qw8VWmY1BMTHyYpMfIKnCn0iaNI",
+  authDomain: "remote-control123.firebaseapp.com",
+  databaseURL: "https://remote-control123-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "remote-control123",
+  storageBucket: "remote-control123.firebasestorage.app",
+  messagingSenderId: "789123423407",
   appId: "1:195721038212:web:733ac144fca4caf89f75d1"
 };
 
