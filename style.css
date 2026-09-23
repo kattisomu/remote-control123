@@ -1,0 +1,214 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+min-height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+
+background:
+    linear-gradient(135deg, #07111f, #102a43);
+
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+padding: 20px;
+
+
+}
+
+.app {
+width: 100%;
+max-width: 800px;
+
+background: rgba(255, 255, 255, 0.07);
+
+border: 1px solid rgba(255,255,255,0.12);
+
+border-radius: 24px;
+
+padding: 30px;
+
+box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+
+backdrop-filter: blur(15px);
+
+
+}
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+header h1 {
+font-size: 32px;
+margin-bottom: 8px;
+}
+
+header p {
+color: #aebdcc;
+}
+
+.connection {
+display: inline-block;
+
+margin-top: 15px;
+
+padding: 7px 15px;
+
+border-radius: 20px;
+
+background: #555;
+
+font-size: 13px;
+
+
+}
+
+.relay-container {
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+gap: 20px;
+
+
+}
+
+.relay-card {
+background: #12263a;
+
+border-radius: 18px;
+
+padding: 25px;
+
+text-align: center;
+
+border: 1px solid rgba(255,255,255,0.08);
+
+transition: 0.3s;
+
+
+}
+
+.relay-card:hover {
+transform: translateY(-4px);
+
+box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+
+
+}
+
+.relay-icon {
+width: 55px;
+height: 55px;
+
+margin: 0 auto 15px;
+
+border-radius: 50%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #263b50;
+
+font-size: 25px;
+
+
+}
+
+.relay-card h2 {
+margin-bottom: 15px;
+}
+
+.status {
+font-size: 18px;
+
+font-weight: bold;
+
+margin-bottom: 18px;
+
+
+}
+
+.status.on {
+color: #00e676;
+}
+
+.status.off {
+color: #ff5252;
+}
+
+button {
+width: 100%;
+
+border: none;
+
+padding: 13px;
+
+border-radius: 10px;
+
+color: white;
+
+font-size: 16px;
+
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.2s;
+
+
+}
+
+button:hover {
+transform: scale(1.03);
+}
+
+button.on {
+background: #e53935;
+}
+
+button.off {
+background: #00a86b;
+}
+
+button:active {
+transform: scale(0.98);
+}
+
+footer {
+text-align: center;
+
+margin-top: 25px;
+
+color: #718096;
+
+font-size: 13px;
+
+
+}
+
+@media (max-width: 600px) {
+
+.app {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+.relay-container {
+    grid-template-columns: 1fr;
+}
+
+
+}
